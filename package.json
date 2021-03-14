@@ -1,0 +1,21 @@
+{
+  "name": "test-podcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run netlify-proxy & npm run 11ty-dev",
+    "build": "npm run 11ty",
+    "11ty": "npx @11ty/eleventy",
+    "11ty-dev": "npx @11ty/eleventy --serve",
+    "11ty-debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    "netlify-proxy": "npx netlify-cms-proxy-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "eleventy-plugin-feeds": "^0.1.9"
+  }
+}
