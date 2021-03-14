@@ -5,7 +5,7 @@ class Rss {
   // or `get data() {`
   data() {
     return {
-      permalink: 'feed.rss',
+      permalink: 'feed.xml',
       eleventyExcludeFromCollections: true,
     };
   }
