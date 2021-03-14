@@ -13,7 +13,7 @@
     "netlify-proxy": "npx netlify-cms-proxy-server"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "eleventy-plugin-feeds": "^0.1.9"
