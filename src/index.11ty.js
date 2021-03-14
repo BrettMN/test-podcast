@@ -8,9 +8,11 @@ module.exports = class Base {
   render(data) {
     let list = data.collections.episode
       .map((e) => {
-        `<li><a href="${e.url}">${e.data.title}</a></li>`;
+        return `<li><a href="${e.url}">${e.data.title}</a></li>`;
       })
       .join('');
+
+    console.log({ list });
     return `
         <ol>
         ${list}
