@@ -16,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "eleventy-plugin-feeds": "^1.0.0"
+    "eleventy-plugin-feeds": "^1.0.0",
+    "eleventy-plugin-wipdeveloper-tools": "^0.1.1"
   }
 }
