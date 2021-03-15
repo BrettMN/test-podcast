@@ -7,6 +7,9 @@ module.exports = function (eleventyConfig) {
     ## Set up example
     Copy bellow 
   */
+
+  eleventyConfig.addPassthroughCopy('src/audio/**/**.*');
+
   eleventyConfig.addPlugin(feedsPlugin, {
     // source directory for your project.  Used to copy template into the `dirForFeeds`
     src: __dirname + `/src/`,
